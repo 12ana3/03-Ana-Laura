@@ -1,0 +1,51 @@
+body{
+    background-image:linear-gradient(to top right,#0B0B3B,#81F7F3);
+    display: flex;
+}
+body>div{
+    flex-grow: 1;
+    height: 90vmax;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    flex-direction: column;
+}
+.con1,.con2{
+    gap: 5px;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: row;
+}
+.con2{
+    flex-grow: 1;
+    height: 40px;
+    border: 1px solid white;
+    justify-content: space-around;
+    align-items: center;
+}
+.coni{
+    flex-grow: 1;
+    border: 1px solid white;
+}
+.cont{
+    flex-grow: 3;
+    border: 1px solid white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+}
+.boton{
+    width: 200px;
+    text-align: center;
+    
+}
+img{
+    width: 200px;
+
+}

@@ -1,0 +1,42 @@
+body{
+    background-image:linear-gradient(to bottom left,#0B0B3B,#81F7F3);
+    display: flex;
+}
+body>div{
+    flex-grow: 1;
+    height: 50vmax;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    border: 1px solid white;
+}
+.contenedorp{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedors{
+    width: 100%;
+    border: 1px solid white;
+}
+span{
+    text-align: center;
+    font-size: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+}
+.guia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+p{
+    font-size: 20px;
+}
